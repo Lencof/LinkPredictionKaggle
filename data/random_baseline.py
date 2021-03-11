@@ -1,7 +1,7 @@
 import numpy as np
-import csv
+import csv # use csv
 
-
+# open note testing.txt
 with open("testing.txt", "r") as f:
     reader = csv.reader(f)
     testing_set  = [line for line in reader]
